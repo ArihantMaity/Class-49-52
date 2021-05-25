@@ -1,0 +1,59 @@
+h3 {
+  color: rgb(127, 236, 255);
+  font-size: 50px;
+}
+
+font {
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+p {
+  color: rgb(255, 136, 0);
+  padding-right: 50px;
+  position: absolute;
+  top: 25%;
+  transform: translate(50, 50);
+}
+
+img {
+  border: solid rgb(255, 0, 64);
+}
+
+hr {
+  height: 5px;
+  background-color: black;
+}
+
+.heading * {
+  background-color: rgb(189, 76, 183);
+  border: solid 10px red;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.grid img {
+  border: 5px solid black;
+  border-radius: 50px;
+}
+
+a:link {
+  color: rgb(81, 255, 0);
+}
+a:visited {
+  color: blueviolet;
+}
+
+.grid:hover img {
+  opacity: 0.75;
+}
+
+.grid:hover h4 {
+  opacity: 0.5;
+}
